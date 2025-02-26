@@ -63,8 +63,7 @@ requirements:
 
 test:
   imports:
-    - lidar2image
-    - lidar2image.polarmosaics
+    - polarmosaics
   requires:
     - pip
   commands:
