@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/DOI-USGS/lidar2image/archive/refs/tags/{{ version }}.tar.gz
-  sha256: beaba26e59a1221847db648c831db90eb5b8e2bf2501b45e825d744b1c5f4cdc
+  sha256: 7430eafc6959b730d93cd38bc3e5a58f550a1bd19eb395e0a5ec0a3e6fb23180
 
 build:
   skip: true  # [win]
@@ -63,7 +63,8 @@ requirements:
 
 test:
   imports:
-    - polarmosaics
+    - lidar2image
+    - lidar2image.polarmosaics
   requires:
     - pip
   commands:
