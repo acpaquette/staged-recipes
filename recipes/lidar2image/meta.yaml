@@ -1,5 +1,5 @@
 {% set name = "lidar2image" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/DOI-USGS/lidar2image/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 7430eafc6959b730d93cd38bc3e5a58f550a1bd19eb395e0a5ec0a3e6fb23180
+  sha256: fa7c0032bc3772ec92de5d4f883c57ef76b011890ac81b3e59240d99d9acdba9
 
 build:
   skip: true  # [win]
@@ -85,3 +85,4 @@ about:
 extra:
   recipe-maintainers:
     - Kelvinrr
+    - acpaquette
