@@ -21,7 +21,7 @@ requirements:
     - boost >=1.78.0,<1.79
     - boost-cpp >=1.78.0,<1.79
     - cmake >=3.27,<3.28
-    - cspice =67
+    - cspice =67=*_10
     - eigen >=3, <4
     - geos >=3.12, <3.13
     - usgs-astrogeology::isis
@@ -46,7 +46,7 @@ requirements:
     - boost >=1.78.0,<1.79
     - boost-cpp >=1.78.0,<1.79
     - cmake >=3.27,<3.28
-    - cspice =67
+    - cspice =67=*_10
     - eigen >=3, <4
     - geos >=3.12, <3.13
     - usgs-astrogeology::isis
