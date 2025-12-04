@@ -18,6 +18,7 @@ build:
 requirements:
   build:
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
     - cmake
     - ninja
     - boost >=1.78.0,<1.79
