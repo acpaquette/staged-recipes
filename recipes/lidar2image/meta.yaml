@@ -8,6 +8,8 @@ package:
 source:
   url: https://github.com/DOI-USGS/lidar2image/archive/refs/tags/{{ version }}.tar.gz
   sha256: fa7c0032bc3772ec92de5d4f883c57ef76b011890ac81b3e59240d99d9acdba9
+  patches:
+    - patches/0001-Fix-serial-call-to-use-kalasiris-instead-of-pysis.patch
 
 build:
   skip: true  # [win]
