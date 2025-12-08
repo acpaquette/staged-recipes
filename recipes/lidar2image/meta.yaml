@@ -34,6 +34,7 @@ requirements:
     - numpy
     - opencv >=4.7,<4.8
     - pandas
+    - patchelf
     - plio <1.6
     - python >=3.10,<=3.11
     - python_abi >=3.10
