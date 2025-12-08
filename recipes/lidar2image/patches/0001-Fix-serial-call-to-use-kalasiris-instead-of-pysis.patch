@@ -16,7 +16,7 @@ index 0c1ca44..320dff8 100755
  
      # Compute the ISIS3 serial number
 -    serial = isis.getsn(from_=args.cube).decode("utf-8").strip()
-+    serial = isis.getsn(from_=arg.cube).stdout.strip()
++    serial = isis.getsn(from_=args.cube).stdout.strip()
  
      columns = ['id', 'pointType', 'serialnumber', 'measureType',
                 'sample', 'line',
